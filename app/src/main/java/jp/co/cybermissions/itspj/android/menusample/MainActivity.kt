@@ -55,6 +55,38 @@ class MainActivity : AppCompatActivity() {
         menu = mutableMapOf("name" to "生姜焼き定食", "price" to 850,
             "desc" to "黒豚の生姜焼きにサラダ、ご飯とお味噌汁が付きます。")
         menuList.add(menu)
+        //「ステーキ定食」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "ステーキ定食", "price" to 1000,
+            "desc" to "国産牛のステーキにサラダ、ご飯とお味噌汁が付きます。")
+        menuList.add(menu)
+        //「野菜炒め定食」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "野菜炒め定食", "price" to 750,
+            "desc" to "季節の野菜炒めにサラダ、ご飯とお味噌汁が付きます。")
+        menuList.add(menu)
+        //「とんかつ定食」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "とんかつ定食", "price" to 900,
+            "desc" to "ロースとんかつにサラダ、ご飯とお味噌汁が付きます。")
+        menuList.add(menu)
+        //「ミンチかつ定食」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "ミンチかつ定食", "price" to 850,
+            "desc" to "手ごねミンチカツにサラダ、ご飯とお味噌汁が付きます。")
+        menuList.add(menu)
+        //「チキンカツ定食」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "チキンカツ定食", "price" to 900,
+            "desc" to "ボリュームたっぷりチキンカツにサラダ、ご飯とお味噌汁が付きます。")
+        menuList.add(menu)
+        //「コロッケ定食」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "コロッケ定食", "price" to 850,
+            "desc" to "北海道ポテトコロッケにサラダ、ご飯とお味噌汁が付きます。")
+        menuList.add(menu)
+        //「焼き魚定食」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "焼き魚定食", "price" to 850,
+            "desc" to "鰆の塩焼きにサラダ、ご飯とお味噌汁が付きます。")
+        menuList.add(menu)
+        //「焼肉定食」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "焼肉定食", "price" to 950,
+            "desc" to "特製たれの焼肉にサラダ、ご飯とお味噌汁が付きます。")
+        menuList.add(menu)
 
         return menuList
     }
@@ -69,6 +101,26 @@ class MainActivity : AppCompatActivity() {
         //「ポークカレー」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
         menu = mutableMapOf("name" to "ポークカレー", "price" to 420,
             "desc" to "特選スパイスをきかせた国産ポーク100％のカレーです。")
+        menuList.add(menu)
+        //「ハンバーグカレー」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "ハンバーグカレー", "price" to 620,
+            "desc" to "特選スパイスをきかせたカレーに手ごねハンバーグをトッピングです。")
+        menuList.add(menu)
+        //「チーズカレー」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "チーズカレー", "price" to 560,
+            "desc" to "特選スパイスをきかせたカレーにとろけるチーズをトッピングです。")
+        menuList.add(menu)
+        //「カツカレー」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "カツカレー", "price" to 760,
+            "desc" to "特選スパイスをきかせたカレーに国産ロースカツをトッピングです。")
+        menuList.add(menu)
+        //「ビーフカツカレー」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "ビーフカツカレー", "price" to 880,
+            "desc" to "特選スパイスをきかせたカレーに国産ビーフカツをトッピングです。")
+        menuList.add(menu)
+        //「からあげカレー」のデータを格納するMapオブジェクトの用意とmenuListへのデータ登録
+        menu = mutableMapOf("name" to "からあげカレー", "price" to 540,
+            "desc" to "特選スパイスをきかせたカレーに若鳥のから揚げをトッピングです。")
         menuList.add(menu)
 
         return menuList
